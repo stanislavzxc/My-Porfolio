@@ -1,0 +1,347 @@
+body{
+    overflow-x: hidden;
+    height: 4950px;
+    background-color: black;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+#header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    max-width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background: lightcyan;
+    box-shadow: 0 0 4em 4em white inset
+}
+#buttons{
+    position:absolute;
+    right: 201px;
+}
+#txth{
+    position: absolute;
+    left: 20px;
+    transform: translateY(-50px);
+    font-size: 40px;
+    color: rgba(225,225,225, .01);
+    background-image: url("https://cojo.ru/wp-content/uploads/2022/12/krasivyi-gradient-6-1.webp");
+    background-repeat: repeat;
+    -webkit-background-clip:text;
+    animation: animate 15s ease-in-out infinite;
+}
+@keyframes animate {
+    0%, 100% {
+      background-position: left top;
+    }
+    25%{
+      background-position: right bottom;
+     }
+    50% {
+      background-position: left bottom;
+    }
+    75% {
+      background-position: right top;
+    }   
+}
+#btn1{
+    background-color: transparent;
+    border-style: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+#btn1:hover{
+    text-decoration: line-through;
+    color: wheat;
+}
+
+#btn2{
+    background-color: transparent;
+    border-style: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+#btn2:hover{
+    text-decoration: line-through;
+    color: wheat;
+}
+
+#btn3{
+    background-color: transparent;
+    border-style: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+#btn3:hover{
+    text-decoration: line-through;
+    color: wheat;
+}
+
+#btn4{
+    background-color: transparent;
+    border-style: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+#btn4:hover{
+    text-decoration: line-through;
+    color: wheat;
+}
+#parent-main-block{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-color: wheat;
+}
+#main-block{
+    height: 450px;
+    width: 50%;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: relative;
+    top: 100px;
+    border-radius: 1cm;
+    background-color: whitesmoke;
+}
+#developer{
+    position: absolute;
+    font-size: 35px;
+    left: 20px;
+    top: 10px;
+}
+#info-block{
+    position: relative;
+    width: 350px;
+    max-width: 100%;
+    height: 200px;
+    top: 100px;
+}
+#info{
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    padding-bottom: 30px;
+    font-size: 25;
+}
+#emoji{
+    width: 30px;
+    height: 30px;
+    text-align: right;
+    position: relative;
+    bottom: 30px;
+}
+#github{
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    /* padding-top: 150px; */
+}
+#images{
+    width: 100%;
+    height: 100px;
+    border-radius: 2cm;
+    
+}
+#mystack{
+    position: absolute;
+    left: 20px;
+}
+#html{
+    width: 50px;
+    height: 50px;
+}
+#css{
+    width: 60px;
+    height: 50px;
+}
+#js{
+    width: 50px;
+    height: 50px;
+}
+#vue{
+    width: 80px;
+    height: 50px;
+}
+#csharp{
+    width: 50px;
+    height: 50px;
+}
+#stack{
+    position: relative;
+    top: 150px;
+}
+#programmer{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+}
+#skils{
+    width: 100%;
+    height: 100vh;
+    background-color: wheat;
+    position: relative;
+    z-index: 1;
+    top: 20px;
+    border: 2px solid black;
+}
+#me{
+    display: flex;
+    justify-content: center;
+}
+#txt-me{
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 1cm;
+}
+#projects{
+    width: 100%;
+    height: 500vh;
+    background-color: wheat;
+    position: relative;
+    bottom: 25px;
+
+}
+#project-txt{
+    display: flex;
+    justify-content:center;
+    font-size:40px;
+    position: relative;
+    top: 30px;
+}
+#slide1{
+    width: 100%;
+    height:100vh;
+}
+#slide2{
+    width: 100%;
+    height:100vh;
+}
+#slide3{ 
+    width: 100%;
+    height:100vh;
+}
+#slide4{
+    width: 100%;
+    height:100vh;
+}
+#slide5{
+    width: 100%;
+    height:100vh;
+}
+#inslide1{
+    width: 80%;
+    height: 80%;
+    margin:0 auto;
+    position: relative;
+    top: 50px;
+}
+#forrest{
+    width: 100%;
+    height: 100%;
+}
+#inslide2{
+    width: 80%;
+    height: 80%;
+    margin:0 auto;
+    position: relative;
+    top: 50px;
+}
+#inslide3{
+    width: 80%;
+    height: 80%;
+    margin:0 auto;
+    position: relative;
+    top: 50px;
+}
+#inslide4{
+    width: 70%;
+    height: 70%;
+    margin:0 auto;
+    position: relative;
+    top: 50px;
+}
+#inslide5{
+    width: 70%;
+    height: 70%;
+    margin:0 auto;
+    position: relative;
+    top: 50px;
+}
+#todo{
+    width: 100%;
+    height: 100%;
+}
+#temp{
+    width: 100%;
+    height:100%;
+}
+#calc{
+    height: 100%; 
+    width: 100%;
+    
+}
+#counter{
+    width: 100%;
+    height: 100%;
+}
+#contact{
+    min-height: calc(100vh - 70px);
+    position: relative;
+    bottom: 30px; 
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: grid;
+}
+#parent{
+    position: relative;
+}
+#txt-footer{
+    display:flex;
+    justify-content:center;
+    font-size: 25px;
+}
+#tg{
+   font-size: 25px;
+   margin-left: 1em;
+}
+#gmail{
+    font-size: 25px;
+    margin-left: 1em;
+}
+#WhatsApp{
+    font-size: 25px;
+    margin-left: 1em;
+}
+#github123{
+    font-size: 25px;
+    margin-left: 1em;
+}   
+#contacts{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+#nav{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#phone{
+    display: flex;
+    justify-content:center;
+    font-size: 25px;
+}
+#ab{
+    font-size: 30px;
+}
