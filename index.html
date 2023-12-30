@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+        <link rel="stylesheet" href="css/slider.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+        <title>Stanislav</title>
+    </head>
+    <body>
+        
+        
+     
+        <div id="header">
+           
+            <div id="txth"><h2><ins>Stanislav</ins></h2></div> 
+                     <input type="checkbox" id="check"> 
+                     <label for="check">
+                       <i class="fas fa-bars" id="btn"></i>
+                       <i class="fas fa-times" id="cancel"></i>
+                     </label>
+                     <div class="sidebar">
+                       <header>Menu</header>
+                      <div class="zxc">
+                          <i class="fas fa-qrcode"></i>
+                          <button id="btn1"  onclick="window.location.href='#nav'">Home</button>
+                      </div>
+                       
+                      <div class="zxc">
+                         <i class="far fa-question-circle"></i>
+                         <button id="btn2"  onclick="window.location.href='#skils'">About Me</button>
+                       </div>
+                       <div class="zxc">
+                         <i class="fas fa-sliders-h"></i>
+                         <button id="btn3"  onclick="window.location.href='#projects'">My projects</button>
+                       </div>
+                       <div class="zxc">
+                         <i class="far fa-envelope"></i>
+                         <button id="btn4"  onclick="window.location.href='#parent'">Contact</button>
+                      </div>
+                     </div>
+                     
+       
+        </div>
+        <div id="parent-main-block">
+            
+<svg preserveAspectRatio="xMidYMid slice" viewBox="10 10 80 80" id="delete"> 
+    <defs>
+        <style>
+            @keyframes rotate {
+					 0% {
+                    transform: rotate(0deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+            .out-top {
+                animation: rotate 20s linear infinite;
+                transform-origin: 13px 25px;
+            }
+            .in-top {
+                animation: rotate 10s linear infinite;
+                transform-origin: 13px 25px;
+            }
+            .out-bottom {
+                animation: rotate 25s linear infinite;
+                transform-origin: 84px 93px;
+            }
+            .in-bottom {
+                animation: rotate 15s linear infinite;
+                transform-origin: 84px 93px;
+            }
+        </style>
+    </defs>
+    <path fill="#9b5de5" class="out-top" d="M37-5C25.1-14.7,5.7-19.1-9.2-10-28.5,1.8-32.7,31.1-19.8,49c15.5,21.5,52.6,22,67.2,2.3C59.4,35,53.7,8.5,37-5Z"/>
+    <path fill="#f15bb5" class="in-top" d="M20.6,4.1C11.6,1.5-1.9,2.5-8,11.2-16.3,23.1-8.2,45.6,7.4,50S42.1,38.9,41,24.5C40.2,14.1,29.4,6.6,20.6,4.1Z"/>
+    <path fill="#00bbf9" class="out-bottom" d="M105.9,48.6c-12.4-8.2-29.3-4.8-39.4.8-23.4,12.8-37.7,51.9-19.1,74.1s63.9,15.3,76-5.6c7.6-13.3,1.8-31.1-2.3-43.8C117.6,63.3,114.7,54.3,105.9,48.6Z"/>
+    <path fill="#00f5d4" class="in-bottom" d="M102,67.1c-9.6-6.1-22-3.1-29.5,2-15.4,10.7-19.6,37.5-7.6,47.8s35.9,3.9,44.5-12.5C115.5,92.6,113.9,74.6,102,67.1Z"/>
+</svg>
+
+            <div id="main-block"> 
+                <div id="nav"></div>
+                <div id="info-block">
+                    <h1 id="developer">Front-End Developer</h1>
+                    <p id="info" style="color: grey;">Привет,Я Цындрин Станислав,Front-End Разработчик</p>
+                    <div id="image">
+                        <img src="img/emoji.png" id="emoji">
+                        <a href="https://github.com/Stasislav" target="_blank">
+                            <img id="github" src="img/github.jpg" width="40px" height="40px">
+                        </a>   
+                    </div>
+                </div>
+                <div id="stack">
+                    <h3 id="mystack">Мои знания |</h3>
+                    <div id="images">
+                        <img src="img/html.png" id="html">
+                        <img src="img/css.png" id="css">
+                        <img src="img/js.png" id="js">
+                        <img src="img/5881096-middle.png" id="vue">
+                        <img src="img/png-transparent-c-logo-c-programming-language-computer-icons-computer-programming-programming-miscellaneous-blue-trademark.png" id="csharp">
+                    </div>
+                </div>
+               <div id="programmer">
+                    <img src="img/it.png" width="200px" height="200px" id="progr">
+               </div>
+            </div>
+        </div>
+        
+        <div id="skils"> 
+           <div id="me"><h1><ins>Обо Мне</ins></h1></div>
+           <div id="txt-me">
+              <h4 id="ab" >Меня зовут Станислав,Живу в Новосибирске,Я создаю сайты на заказ</h4>
+              <p style="font-size: 25px;">Pаботаю на 4 языках:</p>
+              <p style="font-size: 25px;">HTML,CSS,JavaScript,C#</p>
+              <p style="font-size: 25px;">Сейчас продолжаю развиваться в плане Front-End разработки</p>
+           </div>
+           <div class="snowman"> 
+            <div class="snowman-face"></div>
+            <div class="snowman-nose"></div>
+            <div class="mouth"></div>
+            <div class="buttons"></div>
+            <div class="arm right"></div>
+            <div class="arm left"></div>
+          </div>
+         
+          
+        </div>
+    <div id="projects">
+        <h2 id="project-txt"><ins>Мои Работы</ins></h2>
+            <div id="slide1">
+                <div id="inslide1">
+                    <a href="https://stasislav.github.io/ForRest54/" target="_blank"><img id="forrest" src="img/ForRest.png"></a>
+                </div>
+            </div>
+            <div id="slide2">
+                 <div id="inslide2">
+                    <a href="https://stasislav.github.io/Clock-to-New-Year/" target="_blank"><img id="counter" src="img/counter.png"></a>
+                </div>
+            </div>
+            <div id="slide3">
+                 <div id="inslide3">
+                    <a href="https://stasislav.github.io/ToDoList/" target="_blank"><img id="todo" src="img/ToDoList.png"></a>
+                </div>
+            </div>
+            <div id="slide4">
+                 <div id="inslide4">
+                    <a href="https://stasislav.github.io/temperature/" target="_blank"><img id="temp" src="img/temperature.png"></a>
+                </div>
+            </div>
+            <div id="slide5">
+                <div id="inslide5">
+                   <a href="https://stasislav.github.io/calculator/" target="_blank"><img id="calc" src="img/calculator.png"></a>
+               </div>
+           </div>
+        </div>
+    </div>
+    <div id="parent">
+        <div id="contact">
+            <div id="txt-footer" style="color: white;"><h2><ins>Свяжитесь Со Мной<ins></h2></div>
+            <div id="contacts">
+                <a href="https://t.me/@Stanislav694" target="_blank" style="color:  whitesmoke;" id="tg">telegram</a>
+                <a href="mailto:stanislavborisov67@gmail.com" target="_blank" style="color: white;" id="gmail">gmail</a>
+                <a href="https://wa.me/79513701985?text=" target="_blank" style="color: white;" id="WhatsApp">WhatsApp</a>
+                <a href="https://github.com/Stasislav" target="_blank" style="color: white;" id="github123">github</a>
+            </div>
+            <div class="dance"></div>
+            <div id="phone" style="color: white;">
+                <h3>+7 951 370-19-85</h3>
+            </div>
+        </div>
+    </div>
+            
+    
+        <script src="js/script.js"></script>
+    </body>
+</html>
