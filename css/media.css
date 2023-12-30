@@ -1,0 +1,625 @@
+@media(min-width:769px) and (max-width: 1024px){
+    #header{
+        height:100px;
+    }
+    #parent-main-block {
+        position:relative;
+        top: 20px;
+    }
+    #txt-footer{
+      font-size: 25px;  
+    }
+    #main-block{
+        height: 600px;
+        width: 700px;
+        position:relative;
+        top: 250px;
+    }
+    #stack{
+        position: relative;
+        top: 300px;
+    }
+    #css{
+        width: 70px;
+        height: 70px;
+    }
+    #js{
+        width: 70px;
+        height: 70px;
+    }
+    #vuel{
+        width: 70px;
+        height: 70px;
+    }
+    #csharp {
+        width: 70px;
+        height: 70px;
+    }
+    #programmer{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        right: 100px;
+        top: 180px;
+    }
+    #developer{
+        font-size: 35px;
+        position: absolute;
+        top: 30px;
+    }
+    #info-block{
+     top: 120px;
+     width: 400px;
+    }
+    #github{
+        width: 60px;
+        height: 60px;
+        top: 250px;
+    }
+    #emoji{
+        top: 10px;
+        left: 50px;
+        width: 50px;
+        top: -10px;
+        height: 50px;
+    }
+    #info{
+        left: 25px;
+        font-size: 22px;
+        top: 100px;
+    }
+    #buttons{
+        display: none;
+    }
+    #btn{
+        transform: translateX(5px);
+        transform:translateY(10px);
+    }
+    #mystack{
+        position: relative;
+        right: 20px;
+        bottom: 120px;
+        font-size: 30px;
+    }
+    #images{
+        position: relative;
+        bottom: 120px;
+
+    }
+    #progr{
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        left: -100px;
+        top: -100px;
+    }
+    #ab{
+        font-size: 30px;
+    }
+    #txth{
+        font-size: 35px;
+        top: 15px;
+    }
+    #txt-me{
+        top: 350px;
+    }
+    #inslide1{
+        width: 700px;
+        height: 400px;
+    }
+    #inslide2{
+        width: 700px;
+        height: 400px;
+        position: relative;
+        top: 200px;
+    }
+    #inslide3{
+        width: 700px;
+        height: 400px;
+        position: relative;
+        top: 400px;
+    }
+    #inslide4{
+        height: 400px;
+        width: 700px;
+        position: relative;
+        top: 600px;
+    }
+    #inslide5{
+        height: 400px;
+        width: 700px;
+        position: relative;
+        top: 800px;
+    }
+    #slide1{
+        height: 350px;
+    }
+    #slide2{
+        height: 350px;
+    }
+    #slide3{
+        height: 350px;
+    }
+    #slide4{
+        height: 350px;
+    }
+    #slide5{
+        height: 350px;
+    }
+    #projects{
+        height: 2700px;
+    }
+    #tg{
+        left: 30px;
+        bottom:20px;
+        position: relative;
+        font-size: xx-large;
+    }
+    #gmail{
+        left: 70px;
+        bottom: 20px;
+        position: relative;
+        font-size: xx-large;
+    }
+    #WhatsApp{
+        left: -30px;
+        top: 50px;
+        position: relative;
+        font-size: xx-large;
+    }
+    #github123{
+        position:absolute;
+        left:30px;
+        top: 50px;
+        font-size: xx-large;
+    }
+    #contacts{
+        position: relative;
+        bottom: 50px;
+    }
+    #phone{
+        position: relative;
+        bottom: 250px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px){
+    #header{
+        height:100px;
+    }
+    #parent-main-block {
+        position:relative;
+        top: 20px;
+    }
+    #txt-footer{
+      font-size: 25px;  
+    }
+    #main-block{
+        height: 500px;
+        width: 450px;
+        position:relative;
+        top: 180px;
+    }
+    #stack{
+        position: relative;
+        top: 250px;
+    }
+    #programmer{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        right: 100px;
+        top: 180px;
+    }
+    #developer{
+        font-size: 30px;
+        position: absolute;
+        top: 30px;
+    }
+    #info-block{
+     transform: translateY(-100px);
+     max-width: 100%;
+     margin:0 auto;
+     top: 120px;
+    }
+    #emoji{
+        top: 10px;
+        left: 50px;
+    }
+    #info{
+        left: 0;
+    }
+    #buttons{
+        display: none;
+    }
+    #btn{
+        transform: translateX(5px);
+        transform:translateY(10px);
+    }
+    #mystack{
+        position: relative;
+        right: 20px;
+        bottom: 120px;
+    }
+    #images{
+        position: relative;
+        bottom: 120px;
+
+    }
+    #progr{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    #ab{
+        font-size: 25px;
+    }
+    #txth{
+        font-size: 35px;
+        top: 15px;
+    }
+    #txt-me{
+        top: 350px;
+    }
+    #inslide1{
+        width:600px;
+        height:350px;
+    }
+    #inslide2{
+        width:600px;
+        height:350px;
+        position: relative;
+        top: 200px;
+    }
+    #inslide3{
+        width:600px;
+        height:350px;
+        position: relative;
+        top: 400px;
+    }
+    #inslide4{
+        height: 350px;
+        width: 500px;
+        position: relative;
+        top: 600px;
+    }
+    #inslide5{
+        height: 350px;
+        width: 500px;
+        position: relative;
+        top: 800px;
+    }
+    #slide1{
+        height: 350px;
+    }
+    #slide2{
+        height: 350px;
+    }
+    #slide3{
+        height: 350px;
+    }
+    #slide4{
+        height: 350px;
+    }
+    #slide5{
+        height: 350px;
+    }
+    #projects{
+        height: 2700px;
+    }
+    #tg{
+        left: 30px;
+        bottom:20px;
+        position: relative;
+        font-size: xx-large;
+    }
+    #gmail{
+        left: 70px;
+        bottom: 20px;
+        position: relative;
+        font-size: xx-large;
+    }
+    #WhatsApp{
+        left: -30px;
+        top: 50px;
+        position: relative;
+        font-size: xx-large;
+    }
+    #github123{
+        position:absolute;
+        left:30px;
+        top: 50px;
+        font-size: xx-large;
+    }
+    #contacts{
+        position: relative;
+        bottom: 50px;
+    }
+    #phone{
+        position: relative;
+        bottom: 100px;
+    }
+}
+/*  */
+@media (max-width:480px){
+    body{
+        height: 3500px;
+    }
+    #txt-footer{
+      font-size: 20px;  
+    }
+    #main-block{
+        height: 400px;
+        width: 350px;
+        position:relative;
+        top: 180px;
+    }
+    #programmer{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 10px;
+        top: 0;
+    }
+    #developer{
+        font-size: 25px;
+        position: absolute;
+        top: 30px;
+    }
+    #info-block{
+     transform: translateY(-100px);
+     max-width: 100%;
+     top: 150px;
+    }
+    #emoji{
+        top: 10px;
+        left: 50px;
+    }
+    #info{
+        left: 0;
+    }
+    #buttons{
+        display: none;
+    }
+    #btn{
+        transform: translateX(5px);
+        transform:translateY(10px);
+    }
+    #mystack{
+        position: relative;
+        right: 20px;
+        bottom: 120px;
+    }
+    #images{
+        position: relative;
+        bottom: 120px;
+
+    }
+    #progr{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    #skils{
+        bottom: 20px;
+        top: 0;
+    }
+    #ab{
+        font-size: 25px;
+    }
+    #projects {
+        bottom: 50px;
+    }
+    #txth{
+        font-size: 35px;
+        top: 15px;
+    }
+    #txt-me{
+        top: 350px;
+    }
+    #inslide1{
+        width: 350px;
+        height:250px;
+    }
+    #inslide2{
+        width:350px;
+        height:250px;
+    }
+    #inslide3{
+        width:350px;
+        height:250px;
+    }
+    #inslide4{
+        height: 250px;
+        width: 350px;
+    }
+    #inslide5{
+        height: 250px;
+        width: 350px;
+    }
+    #slide1{
+        height: 350px;
+    }
+    #slide2{
+        height: 350px;
+    }
+    #slide3{
+        height: 350px;
+    }
+    #slide4{
+        height: 350px;
+    }
+    #slide5{
+        height: 350px;
+    }
+    #projects{
+        height: 1900px;
+    }
+    #tg{
+        left: 30px;
+        bottom:20px;
+        position: relative;
+    }
+    #gmail{
+        left: 70px;
+        bottom: 20px;
+        position: relative;
+    }
+    #WhatsApp{
+        left: -30px;
+        top: 50px;
+        position: relative;
+    }
+    #github123{
+        position:absolute;
+        left:30px;
+        top: 50px;
+    }
+    #contacts{
+        position: relative;
+        bottom: 50px;
+    }
+    #phone{
+        position: relative;
+        bottom: 100px;
+    }
+}
+
+@media (max-width:320px){
+    body{
+        height: 3500px;
+    }
+    #txt-footer{
+      font-size: 20px;  
+    }
+    #main-block{
+        height: 400px;
+        width: 300px;
+    }
+    #programmer{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 10px;
+        top: 0;
+    }
+    #developer{
+        font-size: 25px;
+        position: absolute;
+        top: 30px;
+    }
+    #info-block{
+     transform: translateY(-100px);
+     max-width: 100%;
+     top: 150px;
+    }
+    #emoji{
+        top: 10px;
+        left: 50px;
+    }
+    #info{
+        left: 0;
+    }
+    #buttons{
+        display: none;
+    }
+    #btn{
+        transform: translateX(5px);
+        transform:translateY(10px);
+    }
+    #mystack{
+        position: relative;
+        right: 20px;
+        bottom: 120px;
+    }
+    #images{
+        position: relative;
+        bottom: 120px;
+
+    }
+    #progr{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    #skils{
+        bottom: 20px;
+        top: 0;
+    }
+    #ab{
+        font-size: 20px;
+    }
+    #projects {
+        bottom: 50px;
+    }
+    #txth{
+        font-size: 35px;
+        top: 15px;
+    }
+    #txt-me{
+        top: 250px;
+    }
+    #inslide1{
+        width:290px;
+        height:250px;
+    }
+    #inslide2{
+        width:290px;
+        height:250px;
+    }
+    #inslide3{
+        width:290px;
+        height:250px;
+    }
+    #inslide4{
+        height: 250px;
+        width: 290px;
+    }
+    #inslide5{
+        height: 250px;
+        width: 290px;
+    }
+    #slide1{
+        height: 350px;
+    }
+    #slide2{
+        height: 350px;
+    }
+    #slide3{
+        height: 350px;
+    }
+    #slide4{
+        height: 350px;
+    }
+    #slide5{
+        height: 350px;
+    }
+    #projects{
+        height: 1900px;
+    }
+    #tg{
+        left: 30px;
+        bottom:20px;
+        position: relative;
+    }
+    #gmail{
+        left: 70px;
+        bottom: 20px;
+        position: relative;
+    }
+    #WhatsApp{
+        left: 30px;
+        top: 10px;
+        position: relative;
+    }
+    #github123{
+        position:relative;
+        left:50px;
+        top: 10px;
+    }
+}
