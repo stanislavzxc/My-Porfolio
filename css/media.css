@@ -354,6 +354,9 @@
     body{
         height: 3500px;
     }
+    #parent{
+        bottom:50px;
+    }
     #txt-footer{
       font-size: 20px;  
     }
